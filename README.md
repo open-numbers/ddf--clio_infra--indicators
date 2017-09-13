@@ -20,6 +20,9 @@ clio-infra datasets
 
 ## Data sources summary
 
+All source files are come from [Clio Infra](https://www.clio-infra.eu/index.html), using
+the compact format.
+
 
 ## Specific information about this indicator
 
