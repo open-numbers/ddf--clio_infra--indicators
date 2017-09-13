@@ -99,7 +99,7 @@ current version: 20170913
 
 ## Data sources summary
 
-All source files are come from [Clio Infra](https://www.clio-infra.eu/index.html), using
+All source files are from [Clio Infra](https://www.clio-infra.eu/index.html), using
 the compact format.
 
 

@@ -21,7 +21,7 @@ def get_home_page(url):
 
 
 def get_indicator_links(tree):
-    elem = tree.xpath('//div[@class="col-sm-4"]/div[@class = "list-group"]/p[@class = "list-group-item"]')
+    elem = tree.xpath('//div[@class="col-sm-4"]/div[@class="list-group"]/p[@class="list-group-item"]')
 
     res1 = {}
     res2 = {}
@@ -30,11 +30,11 @@ def get_indicator_links(tree):
         try:
             name = e.find('a').text
             link = e.find('*/a').attrib['href']
-            if '../data' in link:
+            if '../data' in link:  # it's indicator file
                 res1[name] = link
-            else:
+            else:  # it's country file
                 res2[name] = link
-        except:
+        except:  # FIXME: add exception class here.
             name = e.text
             res2[name] = ''
     return (res1, res2)
@@ -56,7 +56,7 @@ def run_scraper():
                     f.write(chunk)
                     f.flush()
             f.close()
-        print('Done')
+        print('Done downloading source files.')
 
 
 if __name__ == '__main__':

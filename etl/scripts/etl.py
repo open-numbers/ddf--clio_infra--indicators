@@ -53,6 +53,7 @@ if __name__ == '__main__':
     geos = []
 
     for fn in os.listdir(source_path):
+        # process all file, save datapoints and get geos and concepts from each file.
         if fn.endswith('xls'):
             cdf, geo, ind = process_file(osp.join('../source', fn))
             ind.to_csv(osp.join(out_path,
@@ -60,6 +61,7 @@ if __name__ == '__main__':
             concepts.append(cdf)
             geos.append(geo)
 
+    # create concept dataframe and country dataframe
     cdf_full = pd.concat(concepts)
     cdf_full = cdf_full[['name', 'concept_type', 'Downloaded from', 'Text Citation',
                          'XML Citation', 'RIS Citation', 'BIB Citation']]
@@ -69,14 +71,15 @@ if __name__ == '__main__':
     geo_full['ccode'] = geo_full['ccode'].map(lambda x: str(int(x)) if not pd.isnull(x) else '')
     geo_full.to_csv(osp.join(out_path, 'ddf--entities--country.csv'))
 
+    # extract discrete concepts
     discrete = extract_concepts([cdf_full, geo_full.reset_index()])
     discrete = discrete.set_index('concept')
     discrete.loc['country', 'concept_type'] = 'entity_domain'
     discrete.loc['year', 'concept_type'] = 'time'
     discrete.loc['ccode', 'concept_type'] = 'string'
     discrete['name'] = discrete.index
-    cdf_full = cdf_full.append(discrete).drop_duplicates(subset=['name'])
 
+    cdf_full = cdf_full.append(discrete).drop_duplicates(subset=['name'])
     cdf_full.to_csv(osp.join(out_path, 'ddf--concepts.csv'))
 
     dump_json(out_path, get_datapackage(out_path))
