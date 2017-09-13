@@ -5,7 +5,7 @@
 import requests
 from lxml import etree
 import os.path as osp
-from urllib.parse import urlparse, urljoin
+from urllib.parse import urljoin
 
 
 url = 'https://www.clio-infra.eu/index.html'
@@ -58,3 +58,6 @@ def run_scraper():
             f.close()
         print('Done')
 
+
+if __name__ == '__main__':
+    run_scraper()
