@@ -4,7 +4,7 @@
 
 import os
 import os.path as osp
-# from .scraper import run_scraper
+from scraper import run_scraper
 import pandas as pd
 from ddf_utils.str import to_concept_id
 from ddf_utils.transformer import extract_concepts
@@ -49,6 +49,11 @@ def process_file(fn):
 
 
 if __name__ == '__main__':
+
+    # download source files
+    print("updating source files...")
+    run_scraper()
+
     concepts = []
     geos = []
 

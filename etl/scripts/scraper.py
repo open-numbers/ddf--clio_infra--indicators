@@ -56,7 +56,7 @@ def run_scraper():
                     f.write(chunk)
                     f.flush()
             f.close()
-        print('Done downloading source files.')
+    print('Done downloading source files.')
 
 
 if __name__ == '__main__':
