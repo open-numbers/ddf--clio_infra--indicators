@@ -4,8 +4,9 @@
 
 import os
 import os.path as osp
-from scraper import run_scraper
 import pandas as pd
+
+from ddf_utils.factory.clio_infra import bulk_download
 from ddf_utils.str import to_concept_id
 from ddf_utils.transformer import extract_concepts
 from ddf_utils.datapackage import get_datapackage, dump_json
@@ -18,7 +19,7 @@ source_path = '../source'
 
 
 def process_file(fn):
-    data = pd.read_excel(fn, sheetname=datapage)
+    data = pd.read_excel(fn, sheet_name=datapage)
     metadata = pd.read_excel(fn, sheetname=metadatapage)
     geo_data = data[['ccode', 'country.name']].drop_duplicates()
     indicator_data = data[['country.name', 'year', 'value']].copy()
@@ -52,7 +53,7 @@ if __name__ == '__main__':
 
     # download source files
     print("updating source files...")
-    run_scraper()
+    #bulk_download(source_path, data_type='dataset')
 
     concepts = []
     geos = []
@@ -87,6 +88,6 @@ if __name__ == '__main__':
     cdf_full = cdf_full.append(discrete).drop_duplicates(subset=['name'])
     cdf_full.to_csv(osp.join(out_path, 'ddf--concepts.csv'))
 
-    dump_json(out_path, get_datapackage(out_path))
+    dump_json(os.path.join(out_path, 'datapackage.json'), get_datapackage(out_path))
 
     print('Done.')
