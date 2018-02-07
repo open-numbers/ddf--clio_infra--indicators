@@ -6,7 +6,6 @@ import os
 import os.path as osp
 import pandas as pd
 
-from ddf_utils.factory.clio_infra import bulk_download
 from ddf_utils.str import to_concept_id
 from ddf_utils.transformer import extract_concepts
 from ddf_utils.datapackage import get_datapackage, dump_json
@@ -50,10 +49,6 @@ def process_file(fn):
 
 
 if __name__ == '__main__':
-
-    # download source files
-    print("updating source files...")
-    #bulk_download(source_path, data_type='dataset')
 
     concepts = []
     geos = []
