@@ -3,1016 +3,8 @@
     "language": {
         "id": "en"
     },
-    "created": "2017-12-15T19:25:27.990724+00:00",
+    "created": "2018-05-17T06:31:26.506096+00:00",
     "resources": [
-        {
-            "path": "ddf--datapoints--total_pasture--by--country--year.csv",
-            "name": "ddf--datapoints--total_pasture--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "total_pasture"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--inflation--by--country--year.csv",
-            "name": "ddf--datapoints--inflation--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "inflation"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--gender_equal_inheritance--by--country--year.csv",
-            "name": "ddf--datapoints--gender_equal_inheritance--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "gender_equal_inheritance"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--labourers_real_wage--by--country--year.csv",
-            "name": "ddf--datapoints--labourers_real_wage--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "labourers_real_wage"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--goats_per_capita--by--country--year.csv",
-            "name": "ddf--datapoints--goats_per_capita--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "goats_per_capita"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--unified_democracy_scores--by--country--year.csv",
-            "name": "ddf--datapoints--unified_democracy_scores--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "unified_democracy_scores"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--competitiveness_of_executive--by--country--year.csv",
-            "name": "ddf--datapoints--competitiveness_of_executive--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "competitiveness_of_executive"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--total_gross_central_government--by--country--year.csv",
-            "name": "ddf--datapoints--total_gross_central_government--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "total_gross_central_government"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--regulation_of_participation--by--country--year.csv",
-            "name": "ddf--datapoints--regulation_of_participation--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "regulation_of_participation"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--tin_production--by--country--year.csv",
-            "name": "ddf--datapoints--tin_production--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "tin_production"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--bauxite_production--by--country--year.csv",
-            "name": "ddf--datapoints--bauxite_production--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "bauxite_production"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--copper_production--by--country--year.csv",
-            "name": "ddf--datapoints--copper_production--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "copper_production"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--armed_conflicts_international--by--country--year.csv",
-            "name": "ddf--datapoints--armed_conflicts_international--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "armed_conflicts_international"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--executive_constraints--by--country--year.csv",
-            "name": "ddf--datapoints--executive_constraints--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "executive_constraints"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--pigs_per_capita--by--country--year.csv",
-            "name": "ddf--datapoints--pigs_per_capita--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "pigs_per_capita"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--openness_of_executive--by--country--year.csv",
-            "name": "ddf--datapoints--openness_of_executive--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "openness_of_executive"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--total_number_of_goats--by--country--year.csv",
-            "name": "ddf--datapoints--total_number_of_goats--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "total_number_of_goats"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--number_of_days_lost_in--by--country--year.csv",
-            "name": "ddf--datapoints--number_of_days_lost_in--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "number_of_days_lost_in"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--nickel_production--by--country--year.csv",
-            "name": "ddf--datapoints--nickel_production--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "nickel_production"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--iron_ore_production--by--country--year.csv",
-            "name": "ddf--datapoints--iron_ore_production--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "iron_ore_production"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--long_term_government--by--country--year.csv",
-            "name": "ddf--datapoints--long_term_government--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "long_term_government"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--co2_emissions_per_capita--by--country--year.csv",
-            "name": "ddf--datapoints--co2_emissions_per_capita--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "co2_emissions_per_capita"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--polyarchy--by--country--year.csv",
-            "name": "ddf--datapoints--polyarchy--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "polyarchy"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--life_expectancy_at_birth_total--by--country--year.csv",
-            "name": "ddf--datapoints--life_expectancy_at_birth_total--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "life_expectancy_at_birth_total"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--latent_democracy_variable--by--country--year.csv",
-            "name": "ddf--datapoints--latent_democracy_variable--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "latent_democracy_variable"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--political_competition--by--country--year.csv",
-            "name": "ddf--datapoints--political_competition--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "political_competition"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--book_titles_per_capita--by--country--year.csv",
-            "name": "ddf--datapoints--book_titles_per_capita--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "book_titles_per_capita"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--total_cropland--by--country--year.csv",
-            "name": "ddf--datapoints--total_cropland--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "total_cropland"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--universities_founded--by--country--year.csv",
-            "name": "ddf--datapoints--universities_founded--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "universities_founded"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--total_number_of_pigs--by--country--year.csv",
-            "name": "ddf--datapoints--total_number_of_pigs--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "total_number_of_pigs"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--sheep_per_capita--by--country--year.csv",
-            "name": "ddf--datapoints--sheep_per_capita--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "sheep_per_capita"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--armed_conflicts_internal--by--country--year.csv",
-            "name": "ddf--datapoints--armed_conflicts_internal--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "armed_conflicts_internal"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--height--by--country--year.csv",
-            "name": "ddf--datapoints--height--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "height"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--female_life_expectancy_at_birth--by--country--year.csv",
-            "name": "ddf--datapoints--female_life_expectancy_at_birth--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "female_life_expectancy_at_birth"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--gender_equality_years--by--country--year.csv",
-            "name": "ddf--datapoints--gender_equality_years--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "gender_equality_years"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--urbanization_ratio--by--country--year.csv",
-            "name": "ddf--datapoints--urbanization_ratio--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "urbanization_ratio"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--total_urban_population--by--country--year.csv",
-            "name": "ddf--datapoints--total_urban_population--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "total_urban_population"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--composite_measure--by--country--year.csv",
-            "name": "ddf--datapoints--composite_measure--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "composite_measure"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--aluminium_production--by--country--year.csv",
-            "name": "ddf--datapoints--aluminium_production--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "aluminium_production"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--zinc_production--by--country--year.csv",
-            "name": "ddf--datapoints--zinc_production--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "zinc_production"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--total_cattle--by--country--year.csv",
-            "name": "ddf--datapoints--total_cattle--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "total_cattle"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--sex_ratio--by--country--year.csv",
-            "name": "ddf--datapoints--sex_ratio--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "sex_ratio"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--number_of_workers_involved--by--country--year.csv",
-            "name": "ddf--datapoints--number_of_workers_involved--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "number_of_workers_involved"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--share_of_women_in_parliament--by--country--year.csv",
-            "name": "ddf--datapoints--share_of_women_in_parliament--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "share_of_women_in_parliament"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--total_co2_emissions--by--country--year.csv",
-            "name": "ddf--datapoints--total_co2_emissions--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "total_co2_emissions"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--biodiversity_naturalness--by--country--year.csv",
-            "name": "ddf--datapoints--biodiversity_naturalness--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "biodiversity_naturalness"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--lead_production--by--country--year.csv",
-            "name": "ddf--datapoints--lead_production--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "lead_production"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--infant_mortality--by--country--year.csv",
-            "name": "ddf--datapoints--infant_mortality--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "infant_mortality"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
         {
             "path": "ddf--concepts.csv",
             "name": "ddf--concepts",
@@ -1047,8 +39,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--total_so2_emissions--by--country--year.csv",
-            "name": "ddf--datapoints--total_so2_emissions--by--country--year",
+            "path": "ddf--datapoints--aluminium_production--by--country--year.csv",
+            "name": "ddf--datapoints--aluminium_production--by--country--year",
             "schema": {
                 "fields": [
                     {
@@ -1058,7 +50,7 @@
                         "name": "year"
                     },
                     {
-                        "name": "total_so2_emissions"
+                        "name": "aluminium_production"
                     }
                 ],
                 "primaryKey": [
@@ -1068,8 +60,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--political_participation--by--country--year.csv",
-            "name": "ddf--datapoints--political_participation--by--country--year",
+            "path": "ddf--datapoints--armed_conflicts_internal--by--country--year.csv",
+            "name": "ddf--datapoints--armed_conflicts_internal--by--country--year",
             "schema": {
                 "fields": [
                     {
@@ -1079,7 +71,7 @@
                         "name": "year"
                     },
                     {
-                        "name": "political_participation"
+                        "name": "armed_conflicts_internal"
                     }
                 ],
                 "primaryKey": [
@@ -1089,8 +81,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--gdp_per_capita--by--country--year.csv",
-            "name": "ddf--datapoints--gdp_per_capita--by--country--year",
+            "path": "ddf--datapoints--armed_conflicts_international--by--country--year.csv",
+            "name": "ddf--datapoints--armed_conflicts_international--by--country--year",
             "schema": {
                 "fields": [
                     {
@@ -1100,130 +92,7 @@
                         "name": "year"
                     },
                     {
-                        "name": "gdp_per_capita"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--gold_standard--by--country--year.csv",
-            "name": "ddf--datapoints--gold_standard--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "gold_standard"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--pasture_per_capita--by--country--year.csv",
-            "name": "ddf--datapoints--pasture_per_capita--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "pasture_per_capita"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--income_inequality--by--country--year.csv",
-            "name": "ddf--datapoints--income_inequality--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "income_inequality"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--entities--country.csv",
-            "name": "ddf--entities--country",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "ccode"
-                    },
-                    {
-                        "name": "name"
-                    }
-                ],
-                "primaryKey": "country"
-            }
-        },
-        {
-            "path": "ddf--datapoints--numeracy_total--by--country--year.csv",
-            "name": "ddf--datapoints--numeracy_total--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "numeracy_total"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--gender_equality_of_numeracy--by--country--year.csv",
-            "name": "ddf--datapoints--gender_equality_of_numeracy--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "gender_equality_of_numeracy"
+                        "name": "armed_conflicts_international"
                     }
                 ],
                 "primaryKey": [
@@ -1254,8 +123,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--gold_production--by--country--year.csv",
-            "name": "ddf--datapoints--gold_production--by--country--year",
+            "path": "ddf--datapoints--bauxite_production--by--country--year.csv",
+            "name": "ddf--datapoints--bauxite_production--by--country--year",
             "schema": {
                 "fields": [
                     {
@@ -1265,7 +134,7 @@
                         "name": "year"
                     },
                     {
-                        "name": "gold_production"
+                        "name": "bauxite_production"
                     }
                 ],
                 "primaryKey": [
@@ -1275,8 +144,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--height_gini--by--country--year.csv",
-            "name": "ddf--datapoints--height_gini--by--country--year",
+            "path": "ddf--datapoints--biodiversity_naturalness--by--country--year.csv",
+            "name": "ddf--datapoints--biodiversity_naturalness--by--country--year",
             "schema": {
                 "fields": [
                     {
@@ -1286,7 +155,7 @@
                         "name": "year"
                     },
                     {
-                        "name": "height_gini"
+                        "name": "biodiversity_naturalness"
                     }
                 ],
                 "primaryKey": [
@@ -1296,8 +165,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--polity2_index--by--country--year.csv",
-            "name": "ddf--datapoints--polity2_index--by--country--year",
+            "path": "ddf--datapoints--book_titles_per_capita--by--country--year.csv",
+            "name": "ddf--datapoints--book_titles_per_capita--by--country--year",
             "schema": {
                 "fields": [
                     {
@@ -1307,301 +176,7 @@
                         "name": "year"
                     },
                     {
-                        "name": "polity2_index"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--silver_production--by--country--year.csv",
-            "name": "ddf--datapoints--silver_production--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "silver_production"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--tungsten_production--by--country--year.csv",
-            "name": "ddf--datapoints--tungsten_production--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "tungsten_production"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--competitiveness_of_participations--by--country--year.csv",
-            "name": "ddf--datapoints--competitiveness_of_participations--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "competitiveness_of_participations"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--male_life_expectancy_at_birth--by--country--year.csv",
-            "name": "ddf--datapoints--male_life_expectancy_at_birth--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "male_life_expectancy_at_birth"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--so2_emissions_per_capita--by--country--year.csv",
-            "name": "ddf--datapoints--so2_emissions_per_capita--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "so2_emissions_per_capita"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--manganese_production--by--country--year.csv",
-            "name": "ddf--datapoints--manganese_production--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "manganese_production"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--exchange_rates_to_us_dollar--by--country--year.csv",
-            "name": "ddf--datapoints--exchange_rates_to_us_dollar--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "exchange_rates_to_us_dollar"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--cropland_per_capita--by--country--year.csv",
-            "name": "ddf--datapoints--cropland_per_capita--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "cropland_per_capita"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--number_of_labour_disputes--by--country--year.csv",
-            "name": "ddf--datapoints--number_of_labour_disputes--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "number_of_labour_disputes"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--homicide_rates--by--country--year.csv",
-            "name": "ddf--datapoints--homicide_rates--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "homicide_rates"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--total_number_of_sheep--by--country--year.csv",
-            "name": "ddf--datapoints--total_number_of_sheep--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "total_number_of_sheep"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--regulation_of_chief_executive--by--country--year.csv",
-            "name": "ddf--datapoints--regulation_of_chief_executive--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "regulation_of_chief_executive"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--educational_inequality_gini--by--country--year.csv",
-            "name": "ddf--datapoints--educational_inequality_gini--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "educational_inequality_gini"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--historical_gender_equality_index--by--country--year.csv",
-            "name": "ddf--datapoints--historical_gender_equality_index--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "historical_gender_equality_index"
+                        "name": "book_titles_per_capita"
                     }
                 ],
                 "primaryKey": [
@@ -1632,8 +207,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--total_population--by--country--year.csv",
-            "name": "ddf--datapoints--total_population--by--country--year",
+            "path": "ddf--datapoints--co2_emissions_per_capita--by--country--year.csv",
+            "name": "ddf--datapoints--co2_emissions_per_capita--by--country--year",
             "schema": {
                 "fields": [
                     {
@@ -1643,7 +218,133 @@
                         "name": "year"
                     },
                     {
-                        "name": "total_population"
+                        "name": "co2_emissions_per_capita"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--competitiveness_of_executive--by--country--year.csv",
+            "name": "ddf--datapoints--competitiveness_of_executive--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "competitiveness_of_executive"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--competitiveness_of_participations--by--country--year.csv",
+            "name": "ddf--datapoints--competitiveness_of_participations--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "competitiveness_of_participations"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--composite_measure--by--country--year.csv",
+            "name": "ddf--datapoints--composite_measure--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "composite_measure"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--copper_production--by--country--year.csv",
+            "name": "ddf--datapoints--copper_production--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "copper_production"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--cropland_per_capita--by--country--year.csv",
+            "name": "ddf--datapoints--cropland_per_capita--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "cropland_per_capita"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--educational_inequality_gini--by--country--year.csv",
+            "name": "ddf--datapoints--educational_inequality_gini--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "educational_inequality_gini"
                     }
                 ],
                 "primaryKey": [
@@ -1672,6 +373,1305 @@
                     "year"
                 ]
             }
+        },
+        {
+            "path": "ddf--datapoints--exchange_rates_to_us_dollar--by--country--year.csv",
+            "name": "ddf--datapoints--exchange_rates_to_us_dollar--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "exchange_rates_to_us_dollar"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--executive_constraints--by--country--year.csv",
+            "name": "ddf--datapoints--executive_constraints--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "executive_constraints"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--female_life_expectancy_at_birth--by--country--year.csv",
+            "name": "ddf--datapoints--female_life_expectancy_at_birth--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "female_life_expectancy_at_birth"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--gdp_per_capita--by--country--year.csv",
+            "name": "ddf--datapoints--gdp_per_capita--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "gdp_per_capita"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--gender_equal_inheritance--by--country--year.csv",
+            "name": "ddf--datapoints--gender_equal_inheritance--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "gender_equal_inheritance"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--gender_equality_of_numeracy--by--country--year.csv",
+            "name": "ddf--datapoints--gender_equality_of_numeracy--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "gender_equality_of_numeracy"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--gender_equality_years--by--country--year.csv",
+            "name": "ddf--datapoints--gender_equality_years--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "gender_equality_years"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--goats_per_capita--by--country--year.csv",
+            "name": "ddf--datapoints--goats_per_capita--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "goats_per_capita"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--gold_production--by--country--year.csv",
+            "name": "ddf--datapoints--gold_production--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "gold_production"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--gold_standard--by--country--year.csv",
+            "name": "ddf--datapoints--gold_standard--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "gold_standard"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--height--by--country--year.csv",
+            "name": "ddf--datapoints--height--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "height"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--height_gini--by--country--year.csv",
+            "name": "ddf--datapoints--height_gini--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "height_gini"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--historical_gender_equality_index--by--country--year.csv",
+            "name": "ddf--datapoints--historical_gender_equality_index--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "historical_gender_equality_index"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--homicide_rates--by--country--year.csv",
+            "name": "ddf--datapoints--homicide_rates--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "homicide_rates"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--income_inequality--by--country--year.csv",
+            "name": "ddf--datapoints--income_inequality--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "income_inequality"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--infant_mortality--by--country--year.csv",
+            "name": "ddf--datapoints--infant_mortality--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "infant_mortality"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--inflation--by--country--year.csv",
+            "name": "ddf--datapoints--inflation--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "inflation"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--iron_ore_production--by--country--year.csv",
+            "name": "ddf--datapoints--iron_ore_production--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "iron_ore_production"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--labourers_real_wage--by--country--year.csv",
+            "name": "ddf--datapoints--labourers_real_wage--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "labourers_real_wage"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--latent_democracy_variable--by--country--year.csv",
+            "name": "ddf--datapoints--latent_democracy_variable--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "latent_democracy_variable"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--lead_production--by--country--year.csv",
+            "name": "ddf--datapoints--lead_production--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "lead_production"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--life_expectancy_at_birth_total--by--country--year.csv",
+            "name": "ddf--datapoints--life_expectancy_at_birth_total--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "life_expectancy_at_birth_total"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--long_term_government--by--country--year.csv",
+            "name": "ddf--datapoints--long_term_government--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "long_term_government"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--male_life_expectancy_at_birth--by--country--year.csv",
+            "name": "ddf--datapoints--male_life_expectancy_at_birth--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "male_life_expectancy_at_birth"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--manganese_production--by--country--year.csv",
+            "name": "ddf--datapoints--manganese_production--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "manganese_production"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--nickel_production--by--country--year.csv",
+            "name": "ddf--datapoints--nickel_production--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "nickel_production"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--number_of_days_lost_in--by--country--year.csv",
+            "name": "ddf--datapoints--number_of_days_lost_in--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "number_of_days_lost_in"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--number_of_labour_disputes--by--country--year.csv",
+            "name": "ddf--datapoints--number_of_labour_disputes--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "number_of_labour_disputes"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--number_of_workers_involved--by--country--year.csv",
+            "name": "ddf--datapoints--number_of_workers_involved--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "number_of_workers_involved"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--numeracy_total--by--country--year.csv",
+            "name": "ddf--datapoints--numeracy_total--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "numeracy_total"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--openness_of_executive--by--country--year.csv",
+            "name": "ddf--datapoints--openness_of_executive--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "openness_of_executive"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--pasture_per_capita--by--country--year.csv",
+            "name": "ddf--datapoints--pasture_per_capita--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "pasture_per_capita"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--pigs_per_capita--by--country--year.csv",
+            "name": "ddf--datapoints--pigs_per_capita--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "pigs_per_capita"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--political_competition--by--country--year.csv",
+            "name": "ddf--datapoints--political_competition--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "political_competition"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--political_participation--by--country--year.csv",
+            "name": "ddf--datapoints--political_participation--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "political_participation"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--polity2_index--by--country--year.csv",
+            "name": "ddf--datapoints--polity2_index--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "polity2_index"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--polyarchy--by--country--year.csv",
+            "name": "ddf--datapoints--polyarchy--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "polyarchy"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--regulation_of_chief_executive--by--country--year.csv",
+            "name": "ddf--datapoints--regulation_of_chief_executive--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "regulation_of_chief_executive"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--regulation_of_participation--by--country--year.csv",
+            "name": "ddf--datapoints--regulation_of_participation--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "regulation_of_participation"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--sex_ratio--by--country--year.csv",
+            "name": "ddf--datapoints--sex_ratio--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "sex_ratio"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--share_of_women_in_parliament--by--country--year.csv",
+            "name": "ddf--datapoints--share_of_women_in_parliament--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "share_of_women_in_parliament"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--sheep_per_capita--by--country--year.csv",
+            "name": "ddf--datapoints--sheep_per_capita--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "sheep_per_capita"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--silver_production--by--country--year.csv",
+            "name": "ddf--datapoints--silver_production--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "silver_production"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--so2_emissions_per_capita--by--country--year.csv",
+            "name": "ddf--datapoints--so2_emissions_per_capita--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "so2_emissions_per_capita"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--tin_production--by--country--year.csv",
+            "name": "ddf--datapoints--tin_production--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "tin_production"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--total_cattle--by--country--year.csv",
+            "name": "ddf--datapoints--total_cattle--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "total_cattle"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--total_co2_emissions--by--country--year.csv",
+            "name": "ddf--datapoints--total_co2_emissions--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "total_co2_emissions"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--total_cropland--by--country--year.csv",
+            "name": "ddf--datapoints--total_cropland--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "total_cropland"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--total_gross_central_government--by--country--year.csv",
+            "name": "ddf--datapoints--total_gross_central_government--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "total_gross_central_government"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--total_number_of_goats--by--country--year.csv",
+            "name": "ddf--datapoints--total_number_of_goats--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "total_number_of_goats"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--total_number_of_pigs--by--country--year.csv",
+            "name": "ddf--datapoints--total_number_of_pigs--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "total_number_of_pigs"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--total_number_of_sheep--by--country--year.csv",
+            "name": "ddf--datapoints--total_number_of_sheep--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "total_number_of_sheep"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--total_pasture--by--country--year.csv",
+            "name": "ddf--datapoints--total_pasture--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "total_pasture"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--total_population--by--country--year.csv",
+            "name": "ddf--datapoints--total_population--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "total_population"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--total_so2_emissions--by--country--year.csv",
+            "name": "ddf--datapoints--total_so2_emissions--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "total_so2_emissions"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--total_urban_population--by--country--year.csv",
+            "name": "ddf--datapoints--total_urban_population--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "total_urban_population"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--tungsten_production--by--country--year.csv",
+            "name": "ddf--datapoints--tungsten_production--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "tungsten_production"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--unified_democracy_scores--by--country--year.csv",
+            "name": "ddf--datapoints--unified_democracy_scores--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "unified_democracy_scores"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--universities_founded--by--country--year.csv",
+            "name": "ddf--datapoints--universities_founded--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "universities_founded"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--urbanization_ratio--by--country--year.csv",
+            "name": "ddf--datapoints--urbanization_ratio--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "urbanization_ratio"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--zinc_production--by--country--year.csv",
+            "name": "ddf--datapoints--zinc_production--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "zinc_production"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--entities--country.csv",
+            "name": "ddf--entities--country",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "ccode"
+                    },
+                    {
+                        "name": "name"
+                    }
+                ],
+                "primaryKey": "country"
+            }
         }
     ],
     "ddfSchema": {
@@ -1680,16 +1680,7 @@
                 "primaryKey": [
                     "concept"
                 ],
-                "value": "ris_citation",
-                "resources": [
-                    "ddf--concepts"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "concept"
-                ],
-                "value": "xml_citation",
+                "value": "bib_citation",
                 "resources": [
                     "ddf--concepts"
                 ]
@@ -1707,7 +1698,25 @@
                 "primaryKey": [
                     "concept"
                 ],
-                "value": "bib_citation",
+                "value": "downloaded_from",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "ris_citation",
                 "resources": [
                     "ddf--concepts"
                 ]
@@ -1725,16 +1734,7 @@
                 "primaryKey": [
                     "concept"
                 ],
-                "value": "name",
-                "resources": [
-                    "ddf--concepts"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "concept"
-                ],
-                "value": "downloaded_from",
+                "value": "xml_citation",
                 "resources": [
                     "ddf--concepts"
                 ]
@@ -1745,7 +1745,7 @@
                 "primaryKey": [
                     "country"
                 ],
-                "value": "name",
+                "value": "ccode",
                 "resources": [
                     "ddf--entities--country"
                 ]
@@ -1754,7 +1754,7 @@
                 "primaryKey": [
                     "country"
                 ],
-                "value": "ccode",
+                "value": "name",
                 "resources": [
                     "ddf--entities--country"
                 ]
@@ -1766,309 +1766,9 @@
                     "country",
                     "year"
                 ],
-                "value": "total_pasture",
+                "value": "aluminium_production",
                 "resources": [
-                    "ddf--datapoints--total_pasture--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "inflation",
-                "resources": [
-                    "ddf--datapoints--inflation--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "gender_equal_inheritance",
-                "resources": [
-                    "ddf--datapoints--gender_equal_inheritance--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "labourers_real_wage",
-                "resources": [
-                    "ddf--datapoints--labourers_real_wage--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "goats_per_capita",
-                "resources": [
-                    "ddf--datapoints--goats_per_capita--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "unified_democracy_scores",
-                "resources": [
-                    "ddf--datapoints--unified_democracy_scores--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "competitiveness_of_executive",
-                "resources": [
-                    "ddf--datapoints--competitiveness_of_executive--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "total_gross_central_government",
-                "resources": [
-                    "ddf--datapoints--total_gross_central_government--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "regulation_of_participation",
-                "resources": [
-                    "ddf--datapoints--regulation_of_participation--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "tin_production",
-                "resources": [
-                    "ddf--datapoints--tin_production--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "bauxite_production",
-                "resources": [
-                    "ddf--datapoints--bauxite_production--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "copper_production",
-                "resources": [
-                    "ddf--datapoints--copper_production--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "armed_conflicts_international",
-                "resources": [
-                    "ddf--datapoints--armed_conflicts_international--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "executive_constraints",
-                "resources": [
-                    "ddf--datapoints--executive_constraints--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "pigs_per_capita",
-                "resources": [
-                    "ddf--datapoints--pigs_per_capita--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "openness_of_executive",
-                "resources": [
-                    "ddf--datapoints--openness_of_executive--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "total_number_of_goats",
-                "resources": [
-                    "ddf--datapoints--total_number_of_goats--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "number_of_days_lost_in",
-                "resources": [
-                    "ddf--datapoints--number_of_days_lost_in--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "nickel_production",
-                "resources": [
-                    "ddf--datapoints--nickel_production--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "iron_ore_production",
-                "resources": [
-                    "ddf--datapoints--iron_ore_production--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "long_term_government",
-                "resources": [
-                    "ddf--datapoints--long_term_government--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "co2_emissions_per_capita",
-                "resources": [
-                    "ddf--datapoints--co2_emissions_per_capita--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "polyarchy",
-                "resources": [
-                    "ddf--datapoints--polyarchy--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "life_expectancy_at_birth_total",
-                "resources": [
-                    "ddf--datapoints--life_expectancy_at_birth_total--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "latent_democracy_variable",
-                "resources": [
-                    "ddf--datapoints--latent_democracy_variable--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "political_competition",
-                "resources": [
-                    "ddf--datapoints--political_competition--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "book_titles_per_capita",
-                "resources": [
-                    "ddf--datapoints--book_titles_per_capita--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "total_cropland",
-                "resources": [
-                    "ddf--datapoints--total_cropland--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "universities_founded",
-                "resources": [
-                    "ddf--datapoints--universities_founded--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "total_number_of_pigs",
-                "resources": [
-                    "ddf--datapoints--total_number_of_pigs--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "sheep_per_capita",
-                "resources": [
-                    "ddf--datapoints--sheep_per_capita--by--country--year"
+                    "ddf--datapoints--aluminium_production--by--country--year"
                 ]
             },
             {
@@ -2086,239 +1786,9 @@
                     "country",
                     "year"
                 ],
-                "value": "height",
+                "value": "armed_conflicts_international",
                 "resources": [
-                    "ddf--datapoints--height--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "female_life_expectancy_at_birth",
-                "resources": [
-                    "ddf--datapoints--female_life_expectancy_at_birth--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "gender_equality_years",
-                "resources": [
-                    "ddf--datapoints--gender_equality_years--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "urbanization_ratio",
-                "resources": [
-                    "ddf--datapoints--urbanization_ratio--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "total_urban_population",
-                "resources": [
-                    "ddf--datapoints--total_urban_population--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "composite_measure",
-                "resources": [
-                    "ddf--datapoints--composite_measure--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "aluminium_production",
-                "resources": [
-                    "ddf--datapoints--aluminium_production--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "zinc_production",
-                "resources": [
-                    "ddf--datapoints--zinc_production--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "total_cattle",
-                "resources": [
-                    "ddf--datapoints--total_cattle--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "sex_ratio",
-                "resources": [
-                    "ddf--datapoints--sex_ratio--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "number_of_workers_involved",
-                "resources": [
-                    "ddf--datapoints--number_of_workers_involved--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "share_of_women_in_parliament",
-                "resources": [
-                    "ddf--datapoints--share_of_women_in_parliament--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "total_co2_emissions",
-                "resources": [
-                    "ddf--datapoints--total_co2_emissions--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "biodiversity_naturalness",
-                "resources": [
-                    "ddf--datapoints--biodiversity_naturalness--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "lead_production",
-                "resources": [
-                    "ddf--datapoints--lead_production--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "infant_mortality",
-                "resources": [
-                    "ddf--datapoints--infant_mortality--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "total_so2_emissions",
-                "resources": [
-                    "ddf--datapoints--total_so2_emissions--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "political_participation",
-                "resources": [
-                    "ddf--datapoints--political_participation--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "gdp_per_capita",
-                "resources": [
-                    "ddf--datapoints--gdp_per_capita--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "gold_standard",
-                "resources": [
-                    "ddf--datapoints--gold_standard--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "pasture_per_capita",
-                "resources": [
-                    "ddf--datapoints--pasture_per_capita--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "income_inequality",
-                "resources": [
-                    "ddf--datapoints--income_inequality--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "numeracy_total",
-                "resources": [
-                    "ddf--datapoints--numeracy_total--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "gender_equality_of_numeracy",
-                "resources": [
-                    "ddf--datapoints--gender_equality_of_numeracy--by--country--year"
+                    "ddf--datapoints--armed_conflicts_international--by--country--year"
                 ]
             },
             {
@@ -2336,9 +1806,9 @@
                     "country",
                     "year"
                 ],
-                "value": "gold_production",
+                "value": "bauxite_production",
                 "resources": [
-                    "ddf--datapoints--gold_production--by--country--year"
+                    "ddf--datapoints--bauxite_production--by--country--year"
                 ]
             },
             {
@@ -2346,9 +1816,9 @@
                     "country",
                     "year"
                 ],
-                "value": "height_gini",
+                "value": "biodiversity_naturalness",
                 "resources": [
-                    "ddf--datapoints--height_gini--by--country--year"
+                    "ddf--datapoints--biodiversity_naturalness--by--country--year"
                 ]
             },
             {
@@ -2356,149 +1826,9 @@
                     "country",
                     "year"
                 ],
-                "value": "polity2_index",
+                "value": "book_titles_per_capita",
                 "resources": [
-                    "ddf--datapoints--polity2_index--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "silver_production",
-                "resources": [
-                    "ddf--datapoints--silver_production--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "tungsten_production",
-                "resources": [
-                    "ddf--datapoints--tungsten_production--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "competitiveness_of_participations",
-                "resources": [
-                    "ddf--datapoints--competitiveness_of_participations--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "male_life_expectancy_at_birth",
-                "resources": [
-                    "ddf--datapoints--male_life_expectancy_at_birth--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "so2_emissions_per_capita",
-                "resources": [
-                    "ddf--datapoints--so2_emissions_per_capita--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "manganese_production",
-                "resources": [
-                    "ddf--datapoints--manganese_production--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "exchange_rates_to_us_dollar",
-                "resources": [
-                    "ddf--datapoints--exchange_rates_to_us_dollar--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "cropland_per_capita",
-                "resources": [
-                    "ddf--datapoints--cropland_per_capita--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "number_of_labour_disputes",
-                "resources": [
-                    "ddf--datapoints--number_of_labour_disputes--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "homicide_rates",
-                "resources": [
-                    "ddf--datapoints--homicide_rates--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "total_number_of_sheep",
-                "resources": [
-                    "ddf--datapoints--total_number_of_sheep--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "regulation_of_chief_executive",
-                "resources": [
-                    "ddf--datapoints--regulation_of_chief_executive--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "educational_inequality_gini",
-                "resources": [
-                    "ddf--datapoints--educational_inequality_gini--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "historical_gender_equality_index",
-                "resources": [
-                    "ddf--datapoints--historical_gender_equality_index--by--country--year"
+                    "ddf--datapoints--book_titles_per_capita--by--country--year"
                 ]
             },
             {
@@ -2516,9 +1846,69 @@
                     "country",
                     "year"
                 ],
-                "value": "total_population",
+                "value": "co2_emissions_per_capita",
                 "resources": [
-                    "ddf--datapoints--total_population--by--country--year"
+                    "ddf--datapoints--co2_emissions_per_capita--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "competitiveness_of_executive",
+                "resources": [
+                    "ddf--datapoints--competitiveness_of_executive--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "competitiveness_of_participations",
+                "resources": [
+                    "ddf--datapoints--competitiveness_of_participations--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "composite_measure",
+                "resources": [
+                    "ddf--datapoints--composite_measure--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "copper_production",
+                "resources": [
+                    "ddf--datapoints--copper_production--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "cropland_per_capita",
+                "resources": [
+                    "ddf--datapoints--cropland_per_capita--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "educational_inequality_gini",
+                "resources": [
+                    "ddf--datapoints--educational_inequality_gini--by--country--year"
                 ]
             },
             {
@@ -2529,6 +1919,616 @@
                 "value": "exchange_rates_to_uk_pound",
                 "resources": [
                     "ddf--datapoints--exchange_rates_to_uk_pound--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "exchange_rates_to_us_dollar",
+                "resources": [
+                    "ddf--datapoints--exchange_rates_to_us_dollar--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "executive_constraints",
+                "resources": [
+                    "ddf--datapoints--executive_constraints--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "female_life_expectancy_at_birth",
+                "resources": [
+                    "ddf--datapoints--female_life_expectancy_at_birth--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "gdp_per_capita",
+                "resources": [
+                    "ddf--datapoints--gdp_per_capita--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "gender_equal_inheritance",
+                "resources": [
+                    "ddf--datapoints--gender_equal_inheritance--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "gender_equality_of_numeracy",
+                "resources": [
+                    "ddf--datapoints--gender_equality_of_numeracy--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "gender_equality_years",
+                "resources": [
+                    "ddf--datapoints--gender_equality_years--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "goats_per_capita",
+                "resources": [
+                    "ddf--datapoints--goats_per_capita--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "gold_production",
+                "resources": [
+                    "ddf--datapoints--gold_production--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "gold_standard",
+                "resources": [
+                    "ddf--datapoints--gold_standard--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "height",
+                "resources": [
+                    "ddf--datapoints--height--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "height_gini",
+                "resources": [
+                    "ddf--datapoints--height_gini--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "historical_gender_equality_index",
+                "resources": [
+                    "ddf--datapoints--historical_gender_equality_index--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "homicide_rates",
+                "resources": [
+                    "ddf--datapoints--homicide_rates--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "income_inequality",
+                "resources": [
+                    "ddf--datapoints--income_inequality--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "infant_mortality",
+                "resources": [
+                    "ddf--datapoints--infant_mortality--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "inflation",
+                "resources": [
+                    "ddf--datapoints--inflation--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "iron_ore_production",
+                "resources": [
+                    "ddf--datapoints--iron_ore_production--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "labourers_real_wage",
+                "resources": [
+                    "ddf--datapoints--labourers_real_wage--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "latent_democracy_variable",
+                "resources": [
+                    "ddf--datapoints--latent_democracy_variable--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "lead_production",
+                "resources": [
+                    "ddf--datapoints--lead_production--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "life_expectancy_at_birth_total",
+                "resources": [
+                    "ddf--datapoints--life_expectancy_at_birth_total--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "long_term_government",
+                "resources": [
+                    "ddf--datapoints--long_term_government--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "male_life_expectancy_at_birth",
+                "resources": [
+                    "ddf--datapoints--male_life_expectancy_at_birth--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "manganese_production",
+                "resources": [
+                    "ddf--datapoints--manganese_production--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "nickel_production",
+                "resources": [
+                    "ddf--datapoints--nickel_production--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "number_of_days_lost_in",
+                "resources": [
+                    "ddf--datapoints--number_of_days_lost_in--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "number_of_labour_disputes",
+                "resources": [
+                    "ddf--datapoints--number_of_labour_disputes--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "number_of_workers_involved",
+                "resources": [
+                    "ddf--datapoints--number_of_workers_involved--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "numeracy_total",
+                "resources": [
+                    "ddf--datapoints--numeracy_total--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "openness_of_executive",
+                "resources": [
+                    "ddf--datapoints--openness_of_executive--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "pasture_per_capita",
+                "resources": [
+                    "ddf--datapoints--pasture_per_capita--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "pigs_per_capita",
+                "resources": [
+                    "ddf--datapoints--pigs_per_capita--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "political_competition",
+                "resources": [
+                    "ddf--datapoints--political_competition--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "political_participation",
+                "resources": [
+                    "ddf--datapoints--political_participation--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "polity2_index",
+                "resources": [
+                    "ddf--datapoints--polity2_index--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "polyarchy",
+                "resources": [
+                    "ddf--datapoints--polyarchy--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "regulation_of_chief_executive",
+                "resources": [
+                    "ddf--datapoints--regulation_of_chief_executive--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "regulation_of_participation",
+                "resources": [
+                    "ddf--datapoints--regulation_of_participation--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "sex_ratio",
+                "resources": [
+                    "ddf--datapoints--sex_ratio--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "share_of_women_in_parliament",
+                "resources": [
+                    "ddf--datapoints--share_of_women_in_parliament--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "sheep_per_capita",
+                "resources": [
+                    "ddf--datapoints--sheep_per_capita--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "silver_production",
+                "resources": [
+                    "ddf--datapoints--silver_production--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "so2_emissions_per_capita",
+                "resources": [
+                    "ddf--datapoints--so2_emissions_per_capita--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "tin_production",
+                "resources": [
+                    "ddf--datapoints--tin_production--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "total_cattle",
+                "resources": [
+                    "ddf--datapoints--total_cattle--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "total_co2_emissions",
+                "resources": [
+                    "ddf--datapoints--total_co2_emissions--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "total_cropland",
+                "resources": [
+                    "ddf--datapoints--total_cropland--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "total_gross_central_government",
+                "resources": [
+                    "ddf--datapoints--total_gross_central_government--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "total_number_of_goats",
+                "resources": [
+                    "ddf--datapoints--total_number_of_goats--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "total_number_of_pigs",
+                "resources": [
+                    "ddf--datapoints--total_number_of_pigs--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "total_number_of_sheep",
+                "resources": [
+                    "ddf--datapoints--total_number_of_sheep--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "total_pasture",
+                "resources": [
+                    "ddf--datapoints--total_pasture--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "total_population",
+                "resources": [
+                    "ddf--datapoints--total_population--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "total_so2_emissions",
+                "resources": [
+                    "ddf--datapoints--total_so2_emissions--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "total_urban_population",
+                "resources": [
+                    "ddf--datapoints--total_urban_population--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "tungsten_production",
+                "resources": [
+                    "ddf--datapoints--tungsten_production--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "unified_democracy_scores",
+                "resources": [
+                    "ddf--datapoints--unified_democracy_scores--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "universities_founded",
+                "resources": [
+                    "ddf--datapoints--universities_founded--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "urbanization_ratio",
+                "resources": [
+                    "ddf--datapoints--urbanization_ratio--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "zinc_production",
+                "resources": [
+                    "ddf--datapoints--zinc_production--by--country--year"
                 ]
             }
         ]
