@@ -1,195 +1,195 @@
 country,ccode,name
-belgium,56,Belgium
-france,250,France
 germany,276,Germany
-ireland,372,Ireland
-italy,380,Italy
 netherlands,528,Netherlands
-poland,616,Poland
+italy,380,Italy
+portugal,620,Portugal
 spain,724,Spain
-sweden,752,Sweden
-switzerland,756,Switzerland
-turkey,792,Turkey
-united_kingdom,826,United Kingdom
-mexico,484,Mexico
-peru,604,Peru
 japan,392,Japan
+austria,40,Austria
+czech_republic,203,Czech Republic
+switzerland,756,Switzerland
+united_kingdom,826,United Kingdom
+sweden,752,Sweden
+china,156,China
+france,250,France
+hungary,348,Hungary
 russia,643,Russia
-united_states,840,United States
-india,356,India
-indonesia,360,Indonesia
+argentina,32,Argentina
+mexico,484,Mexico
 denmark,208,Denmark
+belgium,56,Belgium
+brazil,76,Brazil
+egypt,818,Egypt
 norway,578,Norway
+poland,616,Poland
+united_states,840,United States
+canada,124,Canada
+ireland,372,Ireland
+uruguay,858,Uruguay
+ecuador,218,Ecuador
+serbia,688,Serbia
+croatia,191,Croatia
 finland,246,Finland
+romania,642,Romania
+slovakia,703,Slovakia
+ukraine,804,Ukraine
+colombia,170,Colombia
+luxembourg,442,Luxembourg
+slovenia,705,Slovenia
 armenia,51,Armenia
 azerbaijan,31,Azerbaijan
 belarus,112,Belarus
+estonia,233,Estonia
 georgia,268,Georgia
+iceland,352,Iceland
 kazakhstan,398,Kazakhstan
 kyrgyzstan,417,Kyrgyzstan
-tajikistan,762,Tajikistan
-turkmenistan,795,Turkmenistan
-ukraine,804,Ukraine
-uzbekistan,860,Uzbekistan
-australia,36,Australia
-austria,40,Austria
-bulgaria,100,Bulgaria
-greece,300,Greece
-hungary,348,Hungary
-portugal,620,Portugal
-romania,642,Romania
-argentina,32,Argentina
-estonia,233,Estonia
-iceland,352,Iceland
 latvia,428,Latvia
 lithuania,440,Lithuania
 moldova,498,Moldova
-new_zealand,554,New Zealand
-philippines,608,Philippines
-thailand,764,Thailand
-israel,376,Israel
-morocco,504,Morocco
-south_africa,710,South Africa
-brazil,76,Brazil
-canada,124,Canada
-algeria,12,Algeria
-egypt,818,Egypt
-tunisia,788,Tunisia
-malaysia,458,Malaysia
-south_korea,410,South Korea
-chile,152,Chile
-kenya,404,Kenya
-jordan,400,Jordan
-nigeria,566,Nigeria
-cyprus,196,Cyprus
-malta,470,Malta
-saudi_arabia,682,Saudi Arabia
-united_arab_emirates,784,United Arab Emirates
-croatia,191,Croatia
-macedonia,807,Macedonia
-slovenia,705,Slovenia
-china,156,China
-afghanistan,4,Afghanistan
-nepal,524,Nepal
-oman,512,Oman
-paraguay,600,Paraguay
-haiti,332,Haiti
-bolivia,68,Bolivia
-ecuador,218,Ecuador
-serbia,688,Serbia
-uruguay,858,Uruguay
-venezuela,862,Venezuela
-colombia,170,Colombia
+tajikistan,762,Tajikistan
+turkey,792,Turkey
+turkmenistan,795,Turkmenistan
+uzbekistan,860,Uzbekistan
+india,356,India
 costa_rica,188,Costa Rica
-nicaragua,558,Nicaragua
-guatemala,320,Guatemala
-honduras,340,Honduras
-el_salvador,222,El Salvador
-dominican_republic,214,Dominican Republic
-liberia,430,Liberia
-luxembourg,442,Luxembourg
-cuba,192,Cuba
-panama,591,Panama
-bhutan,64,Bhutan
-albania,8,Albania
-iraq,368,Iraq
-mongolia,496,Mongolia
-lebanon,422,Lebanon
-syria,760,Syria
-pakistan,586,Pakistan
 myanmar,104,Myanmar
-north_korea,408,North Korea
+australia,36,Australia
+barbados,52,Barbados
+belize,84,Belize
+fiji,242,Fiji
+grenada,308,Grenada
+guyana,328,Guyana
+indonesia,360,Indonesia
+new_zealand,554,New Zealand
+peru,604,Peru
+south_africa,710,South Africa
 sri_lanka,144,Sri Lanka
-libya,434,Libya
+thailand,764,Thailand
+trinidad_and_tobago,780,Trinidad and Tobago
+bolivia,68,Bolivia
+dominican_republic,214,Dominican Republic
+el_salvador,222,El Salvador
+greece,300,Greece
+guatemala,320,Guatemala
+guinea_bissau,624,Guinea-Bissau
+haiti,332,Haiti
+israel,376,Israel
+malaysia,458,Malaysia
+malta,470,Malta
+nicaragua,558,Nicaragua
+panama,591,Panama
+philippines,608,Philippines
+south_korea,410,South Korea
+botswana,72,Botswana
 cambodia,116,Cambodia
-laos,418,Laos
-guinea,324,Guinea
-jamaica,388,Jamaica
-singapore,702,Singapore
-benin,204,Benin
-burkina_faso,854,Burkina Faso
-cameroon,120,Cameroon
-central_african_republic,140,Central African Republic
-chad,148,Chad
-congo,178,Congo
-congo_drc,180,"Congo, DRC"
-cote_d_ivoire,384,Cote d'Ivoire
-gabon,266,Gabon
 ghana,288,Ghana
+iran,364,Iran
+iraq,368,Iraq
+kenya,404,Kenya
+kuwait,414,Kuwait
+maldives,462,Maldives
+morocco,504,Morocco
+nigeria,566,Nigeria
+paraguay,600,Paraguay
+suriname,740,Suriname
+swaziland,748,Swaziland
+tanzania,834,Tanzania
+togo,768,Togo
+tunisia,788,Tunisia
+algeria,12,Algeria
+bahrain,48,Bahrain
+brunei,96,Brunei
+bulgaria,100,Bulgaria
+cameroon,120,Cameroon
+chile,152,Chile
+honduras,340,Honduras
+liberia,430,Liberia
+libya,434,Libya
 madagascar,450,Madagascar
 mali,466,Mali
-mauritania,478,Mauritania
+mauritius,480,Mauritius
+syria,760,Syria
+the_gambia,270,The Gambia
+uganda,800,Uganda
+zambia,894,Zambia
+afghanistan,4,Afghanistan
+bangladesh,50,Bangladesh
+benin,204,Benin
+burkina_faso,854,Burkina Faso
+central_african_republic,140,Central African Republic
+congo_drc,180,"Congo, DRC"
+cuba,192,Cuba
+nepal,524,Nepal
+pakistan,586,Pakistan
+qatar,634,Qatar
+tonga,776,Tonga
+bahamas,44,Bahamas
+bosnia_and_herzegovina,70,Bosnia and Herzegovina
+burundi,108,Burundi
+cape_verde,132,Cape Verde
+cote_d_ivoire,384,Cote d'Ivoire
+jamaica,388,Jamaica
+macedonia,807,Macedonia
+marshall_is,584,Marshall Is.
+mongolia,496,Mongolia
+st_lucia,662,St. Lucia
+vanuatu,548,Vanuatu
+vietnam,704,Vietnam
+singapore,702,Singapore
+chad,148,Chad
+ethiopia,231,Ethiopia
 niger,562,Niger
+yemen,887,Yemen
+zimbabwe,716,Zimbabwe
+gabon,266,Gabon
+micronesia,583,Micronesia
+oman,512,Oman
+venezuela,862,Venezuela
+bhutan,64,Bhutan
+albania,8,Albania
+saudi_arabia,682,Saudi Arabia
+lebanon,422,Lebanon
+jordan,400,Jordan
+north_korea,408,North Korea
+laos,418,Laos
+guinea,324,Guinea
+congo,178,Congo
+cyprus,196,Cyprus
+mauritania,478,Mauritania
 senegal,686,Senegal
 somalia,706,Somalia
-togo,768,Togo
 rwanda,646,Rwanda
 sierra_leone,694,Sierra Leone
-tanzania,834,Tanzania
-burundi,108,Burundi
-trinidad_and_tobago,780,Trinidad and Tobago
-uganda,800,Uganda
-kuwait,414,Kuwait
 malawi,454,Malawi
-zambia,894,Zambia
-the_gambia,270,The Gambia
-botswana,72,Botswana
-guyana,328,Guyana
 lesotho,426,Lesotho
 equatorial_guinea,226,Equatorial Guinea
-mauritius,480,Mauritius
-swaziland,748,Swaziland
-fiji,242,Fiji
-zimbabwe,716,Zimbabwe
-bahrain,48,Bahrain
-qatar,634,Qatar
-bangladesh,50,Bangladesh
-guinea_bissau,624,Guinea-Bissau
+united_arab_emirates,784,United Arab Emirates
 angola,24,Angola
-cape_verde,132,Cape Verde
 comoros,174,Comoros
 mozambique,508,Mozambique
 papua_new_guinea,598,Papua New Guinea
-suriname,740,Suriname
-vietnam,704,Vietnam
 djibouti,262,Djibouti
 solomon_is,90,Solomon Is.
 namibia,516,Namibia
-yemen,887,Yemen
-bosnia_and_herzegovina,70,Bosnia and Herzegovina
-czech_republic,203,Czech Republic
 eritrea,232,Eritrea
-slovakia,703,Slovakia
 timor_leste,626,Timor Leste
 montenegro,499,Montenegro
 south_sudan,728,South Sudan
-iran,364,Iran
-barbados,52,Barbados
-brunei,96,Brunei
-bahamas,44,Bahamas
-belize,84,Belize
-grenada,308,Grenada
-samoa,882,Samoa
-st_lucia,662,St. Lucia
-st_vincent_and_the_grenadines,670,St. Vincent and the Grenadines
-tonga,776,Tonga
-dominica,212,Dominica
-sao_tome_and_principe,678,Sao Tome and Principe
-palau,585,Palau
 antigua_and_barbuda,28,Antigua and Barbuda
+dominica,212,Dominica
 kiribati,296,Kiribati
-vanuatu,548,Vanuatu
+samoa,882,Samoa
+sao_tome_and_principe,678,Sao Tome and Principe
 seychelles,690,Seychelles
-nauru,520,Nauru
-maldives,462,Maldives
-marshall_is,584,Marshall Is.
-andorra,20,Andorra
-ethiopia,231,Ethiopia
-sudan,729,Sudan
 san_marino,674,San Marino
-st_kitts_and_nevis,659,St. Kitts and Nevis
+sudan,729,Sudan
 liechtenstein,438,Liechtenstein
+nauru,520,Nauru
 tuvalu,798,Tuvalu
-micronesia,583,Micronesia
+st_kitts_and_nevis,659,St. Kitts and Nevis
+st_vincent_and_the_grenadines,670,St. Vincent and the Grenadines
+palau,585,Palau
+andorra,20,Andorra
 monaco,492,Monaco
 taiwan,158,Taiwan

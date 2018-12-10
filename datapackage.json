@@ -3,7 +3,7 @@
     "language": {
         "id": "en"
     },
-    "created": "2018-05-17T06:31:26.506096+00:00",
+    "created": "2018-12-10T06:32:29.041818+00:00",
     "resources": [
         {
             "path": "ddf--concepts.csv",
@@ -2531,6 +2531,7 @@
                     "ddf--datapoints--zinc_production--by--country--year"
                 ]
             }
-        ]
+        ],
+        "synonyms": []
     }
 }
