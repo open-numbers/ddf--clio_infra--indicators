@@ -19,7 +19,7 @@ source_path = '../source'
 
 def process_file(fn):
     data = pd.read_excel(fn, sheet_name=datapage)
-    metadata = pd.read_excel(fn, sheetname=metadatapage)
+    metadata = pd.read_excel(fn, sheet_name=metadatapage)
     geo_data = data[['ccode', 'country.name']].drop_duplicates()
     indicator_data = data[['country.name', 'year', 'value']].copy()
 
@@ -55,7 +55,7 @@ if __name__ == '__main__':
 
     for fn in os.listdir(source_path):
         # process all file, save datapoints and get geos and concepts from each file.
-        if fn.endswith('xls'):
+        if fn.endswith('xlsx') or fn.endswith('xls'):
             cdf, geo, ind = process_file(osp.join('../source', fn))
             ind.to_csv(osp.join(out_path,
                                 f'ddf--datapoints--{cdf.index[0]}--by--country--year.csv'))
