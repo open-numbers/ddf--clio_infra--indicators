@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 
-from ddf_utils.factory import clio_infra
+from ddf_utils.factory import ClioInfraLoader
 
 
 datapage = 'Data Long Format'
@@ -13,4 +13,4 @@ source_path = '../source'
 if __name__ == '__main__':
     # download source files
     print("updating source files...")
-    clio_infra.bulk_download(source_path, data_type='dataset')
+    ClioInfraLoader().bulk_download(source_path, data_type='dataset')
