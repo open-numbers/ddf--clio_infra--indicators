@@ -9,7 +9,7 @@ import pandas as pd
 from ddf_utils.str import to_concept_id
 from ddf_utils.transformer import extract_concepts
 from ddf_utils.io import dump_json
-from ddf_utils.model.package import DataPackage as DP
+from ddf_utils.package import get_datapackage
 
 
 datapage = 'Data Long Format'
@@ -84,6 +84,6 @@ if __name__ == '__main__':
     cdf_full = cdf_full.append(discrete).drop_duplicates(subset=['name'])
     cdf_full.to_csv(osp.join(out_path, 'ddf--concepts.csv'))
 
-    dump_json(os.path.join(out_path, 'datapackage.json'), DP.get_datapackage(out_path))
+    dump_json(os.path.join(out_path, 'datapackage.json'), get_datapackage(out_path))
 
     print('Done.')
