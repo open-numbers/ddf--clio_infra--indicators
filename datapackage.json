@@ -7,7 +7,7 @@
     "description": "",
     "author": "",
     "license": "",
-    "created": "2019-07-07T03:12:56.894401+00:00",
+    "created": "2020-09-06T07:13:25.038942+00:00",
     "resources": [
         {
             "name": "ddf--concepts",
@@ -18,7 +18,7 @@
                         "name": "concept"
                     },
                     {
-                        "name": "bib_citation"
+                        "name": "name"
                     },
                     {
                         "name": "concept_type"
@@ -27,16 +27,16 @@
                         "name": "downloaded_from"
                     },
                     {
-                        "name": "name"
+                        "name": "text_citation"
+                    },
+                    {
+                        "name": "xml_citation"
                     },
                     {
                         "name": "ris_citation"
                     },
                     {
-                        "name": "text_citation"
-                    },
-                    {
-                        "name": "xml_citation"
+                        "name": "bib_citation"
                     }
                 ],
                 "primaryKey": "concept"
