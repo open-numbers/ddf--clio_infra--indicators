@@ -35,6 +35,7 @@ def process_file(fn):
 
     indicator_data.columns = ['country', 'year', concept_id]
     indicator_data['country'] = indicator_data['country'].map(to_concept_id)
+    indicator_data['year'] = indicator_data['year'].astype(int)  # year is 4 digits number
     indicator_data = indicator_data.set_index(['country', 'year'])
 
     if indicator_data.index.has_duplicates:
@@ -71,6 +72,7 @@ if __name__ == '__main__':
     geo_full = pd.concat(geos)
     geo_full = geo_full.drop_duplicates(subset=['name'])
     geo_full['ccode'] = geo_full['ccode'].map(lambda x: str(int(x)) if not pd.isnull(x) else '')
+    geo_full = geo_full.sort_index()
     geo_full.to_csv(osp.join(out_path, 'ddf--entities--country.csv'))
 
     # extract discrete concepts
@@ -81,7 +83,7 @@ if __name__ == '__main__':
     discrete.loc['ccode', 'concept_type'] = 'string'
     discrete['name'] = discrete.index
 
-    cdf_full = cdf_full.append(discrete).drop_duplicates(subset=['name'])
+    cdf_full = cdf_full.append(discrete).drop_duplicates(subset=['name']).sort_index()
     cdf_full.to_csv(osp.join(out_path, 'ddf--concepts.csv'))
 
     dump_json(os.path.join(out_path, 'datapackage.json'), get_datapackage(out_path))
