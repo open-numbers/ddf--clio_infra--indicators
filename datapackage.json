@@ -7,7 +7,7 @@
     "description": "",
     "author": "",
     "license": "",
-    "created": "2021-08-18T15:20:18.496696+00:00",
+    "created": "2021-10-10T03:39:34.265232+00:00",
     "resources": [
         {
             "name": "ddf--concepts",
@@ -517,6 +517,48 @@
                     },
                     {
                         "name": "gender_equality_years"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--global_extreme_poverty_cbn--by--country--year",
+            "path": "ddf--datapoints--global_extreme_poverty_cbn--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "global_extreme_poverty_cbn"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--global_extreme_poverty_dad--by--country--year",
+            "path": "ddf--datapoints--global_extreme_poverty_dad--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "global_extreme_poverty_dad"
                     }
                 ],
                 "primaryKey": [
@@ -1639,6 +1681,90 @@
             }
         },
         {
+            "name": "ddf--datapoints--wealth_decadal_ginis--by--country--year",
+            "path": "ddf--datapoints--wealth_decadal_ginis--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "wealth_decadal_ginis"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--wealth_top10_percent_share--by--country--year",
+            "path": "ddf--datapoints--wealth_top10_percent_share--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "wealth_top10_percent_share"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--wealth_total--by--country--year",
+            "path": "ddf--datapoints--wealth_total--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "wealth_total"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--wealth_yearly_ginis--by--country--year",
+            "path": "ddf--datapoints--wealth_yearly_ginis--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "wealth_yearly_ginis"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
             "name": "ddf--datapoints--zinc_production--by--country--year",
             "path": "ddf--datapoints--zinc_production--by--country--year.csv",
             "schema": {
@@ -1993,6 +2119,26 @@
                 "value": "gender_equality_years",
                 "resources": [
                     "ddf--datapoints--gender_equality_years--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "global_extreme_poverty_cbn",
+                "resources": [
+                    "ddf--datapoints--global_extreme_poverty_cbn--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "global_extreme_poverty_dad",
+                "resources": [
+                    "ddf--datapoints--global_extreme_poverty_dad--by--country--year"
                 ]
             },
             {
@@ -2523,6 +2669,46 @@
                 "value": "urbanization_ratio",
                 "resources": [
                     "ddf--datapoints--urbanization_ratio--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "wealth_decadal_ginis",
+                "resources": [
+                    "ddf--datapoints--wealth_decadal_ginis--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "wealth_top10_percent_share",
+                "resources": [
+                    "ddf--datapoints--wealth_top10_percent_share--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "wealth_total",
+                "resources": [
+                    "ddf--datapoints--wealth_total--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "wealth_yearly_ginis",
+                "resources": [
+                    "ddf--datapoints--wealth_yearly_ginis--by--country--year"
                 ]
             },
             {
