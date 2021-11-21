@@ -31,6 +31,7 @@ cambodia,116,Cambodia
 cameroon,120,Cameroon
 canada,124,Canada
 cape_verde,132,Cape Verde
+cayman_islands,,Cayman Islands
 central_african_republic,140,Central African Republic
 chad,148,Chad
 chile,152,Chile
@@ -39,6 +40,7 @@ colombia,170,Colombia
 comoros,174,Comoros
 congo,178,Congo
 congo_drc,180,"Congo, DRC"
+cooks,,Cooks
 costa_rica,188,Costa Rica
 cote_d_ivoire,384,Cote d'Ivoire
 croatia,191,Croatia
@@ -78,10 +80,12 @@ indonesia,360,Indonesia
 iran,364,Iran
 iraq,368,Iraq
 ireland,372,Ireland
+isle_of_man,,Isle of Man
 israel,376,Israel
 italy,380,Italy
 jamaica,388,Jamaica
 japan,392,Japan
+jersey,,Jersey
 jordan,400,Jordan
 kazakhstan,398,Kazakhstan
 kenya,404,Kenya
@@ -97,6 +101,7 @@ libya,434,Libya
 liechtenstein,438,Liechtenstein
 lithuania,440,Lithuania
 luxembourg,442,Luxembourg
+macau_china,,"Macau, China"
 macedonia,807,Macedonia
 madagascar,450,Madagascar
 malawi,454,Malawi
@@ -120,6 +125,7 @@ namibia,516,Namibia
 nauru,520,Nauru
 nepal,524,Nepal
 netherlands,528,Netherlands
+netherlands_antilles,,Netherlands Antilles
 new_zealand,554,New Zealand
 nicaragua,558,Nicaragua
 niger,562,Niger
@@ -161,6 +167,7 @@ sri_lanka,144,Sri Lanka
 st_kitts_and_nevis,659,St. Kitts and Nevis
 st_lucia,662,St. Lucia
 st_vincent_and_the_grenadines,670,St. Vincent and the Grenadines
+state_of_palestine,,State of Palestine
 sudan,729,Sudan
 suriname,740,Suriname
 swaziland,748,Swaziland
@@ -185,6 +192,7 @@ ukraine,804,Ukraine
 united_arab_emirates,784,United Arab Emirates
 united_kingdom,826,United Kingdom
 united_states,840,United States
+united_states_virgin_islands,,United States Virgin Islands
 uruguay,858,Uruguay
 uzbekistan,860,Uzbekistan
 vanuatu,548,Vanuatu

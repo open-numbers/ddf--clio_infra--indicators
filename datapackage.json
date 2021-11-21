@@ -7,7 +7,7 @@
     "description": "",
     "author": "",
     "license": "",
-    "created": "2021-10-10T03:39:34.265232+00:00",
+    "created": "2021-11-21T07:12:48.593058+00:00",
     "resources": [
         {
             "name": "ddf--concepts",
@@ -1345,6 +1345,27 @@
             }
         },
         {
+            "name": "ddf--datapoints--social_spending--by--country--year",
+            "path": "ddf--datapoints--social_spending--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "social_spending"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
             "name": "ddf--datapoints--tin_production--by--country--year",
             "path": "ddf--datapoints--tin_production--by--country--year.csv",
             "schema": {
@@ -1756,6 +1777,27 @@
                     },
                     {
                         "name": "wealth_yearly_ginis"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--working_week--by--country--year",
+            "path": "ddf--datapoints--working_week--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "working_week"
                     }
                 ],
                 "primaryKey": [
@@ -2516,6 +2558,16 @@
                     "country",
                     "year"
                 ],
+                "value": "social_spending",
+                "resources": [
+                    "ddf--datapoints--social_spending--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
                 "value": "tin_production",
                 "resources": [
                     "ddf--datapoints--tin_production--by--country--year"
@@ -2709,6 +2761,16 @@
                 "value": "wealth_yearly_ginis",
                 "resources": [
                     "ddf--datapoints--wealth_yearly_ginis--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "working_week",
+                "resources": [
+                    "ddf--datapoints--working_week--by--country--year"
                 ]
             },
             {
